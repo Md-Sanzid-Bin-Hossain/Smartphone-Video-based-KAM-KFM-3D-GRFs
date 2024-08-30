@@ -5,7 +5,7 @@ By Md Sanzid Bin Hossain, Hwan Choi,  Zhishan Guo, Hyunjun Shin, and Dexter Hadl
 ## Summary
 
 <p align="center">
-  <img src="Images/overall_approah.png" alt="Overall_Approach">
+  <img src="Images/overall_approah.png">
 </p>
 ![Alt text](Images/overall_approah.png)
 
