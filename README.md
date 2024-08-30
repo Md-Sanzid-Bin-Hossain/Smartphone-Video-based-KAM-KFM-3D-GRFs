@@ -29,7 +29,7 @@ Explore the code and models to implement this advanced, accessible solution for 
 
 
 ## Model Overview
-Our proposed approach of knowledge distillation with a teacher and student model. Initially, a teacher model is trained, followed by pre-training the student model's encoder using Knowledge Distillation (KD) loss, leveraging the trained teacher model's encoder. Subsequently, pre-trained student encoder is coupled with MFM and then fine-tuned to obtain the student model.
+Our proposed approach of knowledge distillation with a teacher and student model. Initially, a teacher model is trained, followed by pre-training the student model's encoder using Knowledge Distillation (KD) loss, leveraging the trained teacher model's encoder. Subsequently, a pre-trained student encoder is coupled with MFM and then fine-tuned to obtain the student model.
 
 <p align="center">
   <img src="Images/main_fig.png">
@@ -39,7 +39,14 @@ Our proposed approach of knowledge distillation with a teacher and student model
 <br>
 
 ## Dataset
-We use previously avaiable public dataset [1] and pre-process data to fit our approach. Data can be found in the [Google Drive Link](https://drive.google.com/file/d/1fbI5252kg36XNQcoraX7JmYFHzAstNuz/view?usp=sharing)
+We use previously available public dataset [1] and pre-process data to fit our approach. Data can be found in the [Google Drive Link](https://drive.google.com/file/d/1fbI5252kg36XNQcoraX7JmYFHzAstNuz/view?usp=sharing)
+
+<br>
+
+##Codes
+
+-[Google Colab notebook](Video_based_KAM_KFM_3D_GRFs.ipynb) to run initial model ablation, multi-modal fusion, knowledge distillation, vanilla knowledge distillation.
+-[Google Colab notebook](SOTA_Smartphone_based_KAM_KFM_3D_GRFs.ipynb) to run state-of-the-art(SOTA) models that are used to compared with our proposed method
 
 
 <br> 
