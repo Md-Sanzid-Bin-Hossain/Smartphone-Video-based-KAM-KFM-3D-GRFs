@@ -45,9 +45,9 @@ We use previously available public dataset [1] and pre-process data to fit our a
 
 ## Codes
 
-- [Google Colab notebook](Video_based_KAM_KFM_3D_GRFs.ipynb) to run initial model ablation, multi-modal fusion, knowledge distillation, vanilla knowledge distillation.
+- [Google Colab notebook](Video_based_KAM_KFM_3D_GRFs.ipynb) to run **initial model ablation, multi-modal fusion, knowledge distillation, vanilla knowledge distillation**
 
-- [Google Colab notebook](SOTA_Smartphone_based_KAM_KFM_3D_GRFs.ipynb) to run state-of-the-art(SOTA) models that are used to compared with our proposed method
+- [Google Colab notebook](SOTA_Smartphone_based_KAM_KFM_3D_GRFs.ipynb) to run **state-of-the-art(SOTA) models that are used to compared with our proposed method**
 
 
 <br> 
