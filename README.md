@@ -25,6 +25,8 @@ Our results demonstrate a significant reduction in **normalized root mean square
 
 Explore the code and models to implement this advanced, accessible solution for biomechanical analysis using just smartphone videos.
 
+<br> <br>
+
 
 ## Model Overview
 Our proposed approach of knowledge distillation with a teacher and student model. Initially, a teacher model is trained, followed by pre-training the student model's encoder using Knowledge Distillation (KD) loss, leveraging the trained teacher model's encoder. Subsequently, pre-trained student encoder is coupled with MFM and then fine-tuned to obtain the student model.
