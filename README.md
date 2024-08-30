@@ -35,6 +35,10 @@ Our proposed approach of knowledge distillation with a teacher and student model
   <img src="Images/main_fig.png">
 </p>
 
+
+<br> <be>
+
+
 ## Dataset
 We use previously avaiable public dataset [1] and pre-process data to fit our approach. Data can be found in the [Google Drive Link](https://drive.google.com/file/d/1fbI5252kg36XNQcoraX7JmYFHzAstNuz/view?usp=sharing)
 
@@ -44,7 +48,7 @@ We use previously avaiable public dataset [1] and pre-process data to fit our ap
 
 
 
-
+<br> <br>
 ## References
 [1] T. Tan, D. Wang, P. B. Shull, and E. Halilaj, “Imu and smartphone camera fusion for knee adduction and knee flexion moment estimation during walking,” IEEE Transactions on Industrial Informatics, 2022
 
