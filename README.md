@@ -25,3 +25,26 @@ Our results demonstrate a significant reduction in **normalized root mean square
 
 Explore the code and models to implement this advanced, accessible solution for biomechanical analysis using just smartphone videos.
 
+
+## Model Overview
+Our proposed approach of knowledge distillation with a teacher and student model. Initially, a teacher model is trained, followed by pre-training the student model's encoder using Knowledge Distillation (KD) loss, leveraging the trained teacher model's encoder. Subsequently, pre-trained student encoder is coupled with MFM and then fine-tuned to obtain the student model.
+
+<p align="center">
+  <img src="Images/main_fig.png">
+</p>
+
+## Dataset
+We use previously avaiable public dataset [1] and pre-process data to fit our approach. Data can be found in the [Google Drive Link](https://drive.google.com/file/d/1fbI5252kg36XNQcoraX7JmYFHzAstNuz/view?usp=sharing)
+
+
+
+
+
+
+
+
+## References
+[1] T. Tan, D. Wang, P. B. Shull, and E. Halilaj, “Imu and smartphone camera fusion for knee adduction and knee flexion moment estimation during walking,” IEEE Transactions on Industrial Informatics, 2022
+
+
+
