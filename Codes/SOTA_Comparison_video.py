@@ -84,7 +84,7 @@ def extract_vel_acc(V):
       velocity, acceleration = calculate_velocity_acceleration(V[:,i])
 
       velocity_all.append(velocity)
-      acceleration_all.append(velocity)
+      acceleration_all.append(acceleration)
 
   return np.transpose(velocity_all), np.transpose(acceleration_all)
 
