@@ -1,6 +1,6 @@
-# Smartphone-Video-Based Knee Adduction, Knee flexion, and Ground Reaction Forces via Multi-modal Fusion and Knowledge Distillation
+# Knowledge Transfer-Driven Estimation of Knee Moments and Ground Reaction Forces from Smartphone Videos via Temporal-Spatial Modeling of Augmented Joint Dynamics
 
-By Md Sanzid Bin Hossain, Hwan Choi,  Zhishan Guo, Hyunjun Shin, and Dexter Hadley
+By Md Sanzid Bin Hossain, Hwan Choi, Zhishan Guo, Sunyong Yoo, Min-Keun Song, Hyunjun Shin, and Dexter Hadley
 
 ## Summary
 
@@ -11,7 +11,7 @@ By Md Sanzid Bin Hossain, Hwan Choi,  Zhishan Guo, Hyunjun Shin, and Dexter Hadl
 
 This repository contains the code and models developed for estimating joint moments and 3D ground reaction forces (GRFs) using smartphone video data. Our approach offers a **cost-effective** and **accessible alternative** to traditional methods that require expensive equipment like force plates and motion capture systems. By utilizing only 2-D joint center data obtained from smartphone videos, our novel deep learning model effectively estimates joint moments and GRFs without the need for inertial measurement units (IMUs).
 
-To address the limitations of video-only data, we employ a **knowledge transfer and distillation process** from a teacher model that integrates IMU and video data, enhancing the performance of the video-only student model. Additionally, we incorporate 2-D joint center velocity and acceleration into a **multi-modal fusion framework** to further improve estimation accuracy.
+To address the limitations of video-only data, we employ a **multi-modal knowledge transfer** from a teacher model that integrates IMU and video data to a video-only student model, enhancing the prediction outcome. Additionally, we utilize augmented dynamics of 2-D joint center position data and utilize temporal-spatial modeling of these augmented dynamics. 
 
 Our results demonstrate a significant reduction in **normalized root mean square error (NRMSE)** and an increase in **Pearson correlation coefficient (PCC)**, underscoring the effectiveness of the proposed method. The models achieve:
 
@@ -29,7 +29,7 @@ Explore the code and models to implement this advanced, accessible solution for 
 
 
 ## Model Overview
-Our proposed approach of knowledge distillation with a teacher and student model. Initially, a teacher model is trained, followed by pre-training the student model's encoder using Knowledge Distillation (KD) loss, leveraging the trained teacher model's encoder. Subsequently, a pre-trained student encoder is coupled with MFM and then fine-tuned to obtain the student model.
+Overview of the proposed multi-modal knowledge transfer approach. A teacher model trained with input from IMUs and smartphone videos transfers knowledge to a student model trained with the augmented joint dynamics acquired from smartphone videos to estimate KAM, KFM, and 3D GRFs. The teacher model workflow is shown in green, while the student model workflow is represented in blue
 
 <p align="center">
   <img src="Images/main_fig.png">
